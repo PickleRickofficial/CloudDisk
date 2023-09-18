@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+target
+.idea
+SpingMvcQuickStart.iml
+src/main/resources/c3p0-config.xml
