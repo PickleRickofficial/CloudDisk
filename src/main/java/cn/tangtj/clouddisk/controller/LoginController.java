@@ -22,11 +22,11 @@ public class LoginController {
 
     private static Logger logger = LogManager.getLogger(LoginController.class.getName());
 
-    @GetMapping(value = "/login")
-    public String login(){
-        logger.error("用户通过get请求访问");
-        return "login";
-    }
+//    @GetMapping(value = "/login")
+//    public String login(){
+//        logger.error("用户通过get请求访问");
+//        return "login";
+//    }
 
     @PostMapping(value = "/login")
     public String userLogin(HttpServletRequest request, RedirectAttributesModelMap modelMap){

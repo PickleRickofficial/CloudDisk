@@ -11,6 +11,6 @@ public class MainController {
 
     @RequestMapping()
     public String index(){
-        return "redirect:/login";
+        return "login";
     }
 }
